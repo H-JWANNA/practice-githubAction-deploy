@@ -38,7 +38,7 @@ jobs:
 
     # build 후 프로젝트 압축
     - name: Make zip file
-      run: zip -r ./practice-deploy.zip
+      run: zip -r ./practice-deploy.zip .
       shell: bash
 
     # Access Key, Secret Access key 를 통해 권한 확인
